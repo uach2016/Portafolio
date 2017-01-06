@@ -1,6 +1,77 @@
-body {
-      position: relative; 
+body{
+  background-color: #888888;
+  padding: 0px;
+  margin: 0px;
+  position: relative; 
+}
+.full{
+  background-color: #888888;
+}
+.hand-icon{
+  top: 97px;
+}
+
+#section1, #section2, #section3 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  box-shadow: 10px 5px 5px grey;
+}
+
+#section1{
+  background-color: #1E88E5;
+}
+  #section2 {
+    background-color: #673ab7;
+}
+  #section3{
+    background-color: #ff9800;
+}
+
+.navbar{
+  background-color: #722872;
+  box-shadow: 10px 5px 5px grey;
+}
+#title{
+  color: #EEEEEE;
+}
+#about, #portafolio, #contact{
+  color: #AAAAAA;
+}
+#about span, #portafolio span, #contact span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#about span:after, #portafolio span:after, #contact span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#about:hover span, #portafolio:hover span, #contact:hover span{
+  padding-right: 25px;
+}
+
+#about:hover span:after, #portafolio:hover span:after, #contact:hover span:after{
+  opacity: 1;
+  right: 0;
+}
+
+button.selected{
+  color:red;
+}
+.myClass {
+   background-color: #3e8e41;
+}
+.thick-green-border {
+    border-color: #7778B8;;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
   }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}

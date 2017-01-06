@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Albert U. Herrera</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <head>
+    <title>Albert U. Herrera</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="landingpg.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="landingpg.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        
-      <a class="navbar-brand" href="#"><b>Albert U. Herrera</b></a>
-    </div>
-    <div>
+  <nav class="navbar navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">   
+        <a class="navbar-brand" href="#"><b id="title">Albert U. Herrera</b></a>
+      </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav pull-right">
-          <li><a href="#section1">About</a></li>
-          <li><a href="#section2">Portafolio</a></li>
-          <li><a href="#section3">Contact</a></li>
-          
-            </ul>
-          </li>
+          <li><a id="about"  href="#section1"><span>About</span></a></li>
+          <li><a id="portafolio" href="#section2"><span>Portafolio</span></a></li>
+          <li><a id="contact" href="#section3"><span>Contact</span></a></li>
         </ul>
       </div>
     </div>
-  </div>
-</nav>    
+  </nav> 
 
-<div id="section1" class="container-fluid">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section2" class="container-fluid">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-</body>
+  <div class="container full">
+    <div class="jumbotron">
+    <div id="section1" class="container-fluid">
+      <div class="row">
+        
+          <div class="col-xs-8">
+            <p><b>Full Stack Developer - Ruby on Rails, JavaScript, HTML & CSS</b></p>
+            <p>Passionate about writing clean code. I am excited about building, testing and maintaining robust scalable programs. I am a good team player, proactive and driven to solve even the most complex tasks.</p>
+            <hr>
+            </div>
+          <div class="col-xs-4">
+            <img class="img-responsive thick-green-border" src="https://s29.postimg.org/h7xpg8rzr/image.jpg">
+            <span class="glyphicon glyphicon-thumbs-up hand-icon"></span>
+          </div>
+        </div>
+        <div class="row">
+        <p>M.V.O. Ruby on Rails, T.D.D (RSpec), Sinatra, PHP, Shopify, Embedded, Database (Postgres, MySQL), Wordpress, JavaScript Native, JavaScript in the browser, Ajax, jQuery, Geolocation, APIs, Deployment, CSS, SASS, Bootstrap, HTML, Responsive design, Git, GitHub.<p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="section2" class="container-fluid">
+          <h1>Section 2</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="section3" class="container-fluid">
+          <h1>Section 3</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+      </div>
+     
+      </div>
+    </div>
+
+  </body>
 
 </html>
