@@ -15,14 +15,13 @@ body{
   padding-top:50px;
   height:500px;
   color: #fff;
-  box-shadow: 10px 5px 5px grey;
 }
 
 #section1{
   background-color: #1E88E5;
 }
   #section2 {
-    background-color: #673ab7;
+    background-color: #EEEEEE;
 }
   #section3{
     background-color: #ff9800;
@@ -75,3 +74,33 @@ button.selected{
     border-style: solid;
     border-radius: 50%;
   }
+.img-responsive{
+    margin: 10px auto;
+}
+
+hr#projects { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr#projects:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+hr#skills {
+   border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+

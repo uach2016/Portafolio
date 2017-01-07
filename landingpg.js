@@ -1,5 +1,6 @@
 $( document ).ready(function() {
  $(".nav").addClass("animated shake");
+ 
   $("#about").click(function(){
    $(this).addClass('myClass');
    $("#portafolio, #contact").removeClass('myClass');
